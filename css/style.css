@@ -9,12 +9,12 @@ body {
 }
 header{
     background-color: rgb(88, 85, 85);
-    align-items: center;
-    
+    width: 1349px;
 }
 header nav{
     position: relative; 
     padding: 20px;
+    left: 175px;
     
 }
 header nav ul {
@@ -31,6 +31,9 @@ a{
     text-decoration: none;
     color: grey;
 }
+main{
+    text-align: center;
+}
 main div div img{
     padding: 30px;
     
@@ -40,14 +43,16 @@ main div img{
 }
 section{
     padding: 30px;
-    position: relative;
+    text-align: left;
+    margin-left: 175px;
     
 }
 section article{
-    float: right;
+    display: inline-block;
+    margin-left: 30px;
     position: absolute;
-    left: 540px;
-    top: 30px;
+    
+   
 }
 h3{
     font-weight: bolder;
@@ -62,6 +67,7 @@ article p{
 section div{
     margin-left: 30px;
     display: inline-block;
+    top: 0px;
     
 }
 div a{
